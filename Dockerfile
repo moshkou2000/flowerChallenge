@@ -1,4 +1,4 @@
-FROM node:boron
+FROM  node:latest
 
 RUN mkdir -p /usr/src/app
 
@@ -7,8 +7,5 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-ENV File true
 
-CMD {"node", "index.js"}
-
-
+CMD node index.js

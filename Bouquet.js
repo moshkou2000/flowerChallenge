@@ -18,7 +18,6 @@ class Bouquet {
 
         function x(value, self){
             var type=  value.slice(-1) + s;
-            console.log("bouquet.js constractor",type)
             var fQty = parseInt(value.slice(0,value.length-1))
             _this.bouquetRemain += fQty;
             return new Flower(fQty, type);

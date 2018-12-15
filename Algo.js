@@ -104,7 +104,7 @@ class Algo {
                     }
 
 
-                     //console.debug('this.bouquets[j].getRemain():\n',this.bouquets[j].getRemain(), this.bouquets[j])
+                    //console.debug('this.bouquets[j].getRemain():\n',this.bouquets[j].getRemain(), this.bouquets[j])
 
                     // is DONE
                     if (this.bouquets[j].getTotalRemain() == 0) {
