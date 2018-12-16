@@ -1,5 +1,5 @@
 # Code Challenge
-## Inestalation
+## Installation
 ### Docker
 
 ```sh
