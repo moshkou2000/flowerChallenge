@@ -67,7 +67,7 @@ class Algo {
         else if (this.counter == 256) {
             console.log("Whoops exit beacuse 256 Input "); 
             stop = true;
-            process.exit(0);
+            process.exit(1);
         }
 
         this.counter++;
@@ -109,7 +109,8 @@ class Algo {
                     // is DONE
                     if (this.bouquets[j].getTotalRemain() == 0) {
                         this.bouquets[j].reset();
-                        console.log("DONE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + this.bouquets[j].getText(), ": ", this.bouquets[j]);                        
+                        //console.log("DONE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + this.bouquets[j].getText(), ": ", this.bouquets[j]);                        
+                        console.log(this.bouquets[j].getText())
                     }
 
                    // flag = false;
